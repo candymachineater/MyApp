@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import {
   StyleSheet,
@@ -61,7 +60,6 @@ export default function App() {
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
-      <StatusBar style="light" />
       <View style={styles.header}>
         <Text style={styles.title}>✨ My Todo List</Text>
         <Text style={styles.subtitle}>
